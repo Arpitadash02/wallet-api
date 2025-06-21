@@ -1,7 +1,6 @@
 # 💰 Wallet API (Affinsys Project)
 
-This project is a simple Flask-based REST API for user authentication and wallet operations. It includes features like user registration, login with password hashing, and database integration with MySQL. The application is structured using Blueprints and is ready for deployment on Render.
-
+This project is a simple Flask-based REST API for user authentication and wallet operations. It includes features like user registration, login with password hashing, and database integration with MySQL.
 ---
 
 ## 🚀 Features
@@ -51,19 +50,7 @@ env\Scripts\activate  # On Windows
 ```bash
 pip install -r requirements.txt
 ```
-### 4. Set up .env file
-Create a .env file in the root folder:
 
-```bash
-DATABASE_URL=mysql+mysqlconnector://root:yourpassword@localhost:3306/wallet_db
-```
-
-🌍 Deployment on Render
-✅ Environment Variables
-In Render, set this under Environment section:
-```nginx
-DATABASE_URL = mysql+mysqlconnector://root:yourpassword@your-host-url/wallet_db
-```
 ✅ Start Command
 ```bash
 python app.py
