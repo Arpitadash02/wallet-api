@@ -1,5 +1,4 @@
-# 💰 Wallet API (Affinsys Project)
-
+# 💰 Wallet API 
 This project is a simple Flask-based REST API for user authentication and wallet operations. It includes features like user registration, login with password hashing, and database integration with MySQL.
 ---
 
@@ -38,7 +37,7 @@ The API provides the following functionalities:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Arpitadash02/wallet-api-affinsys.git
+git clone https://github.com/Arpitadash02/wallet-api.git
 cd wallet-api
 ```
 ### 2. Set up virtual environment
